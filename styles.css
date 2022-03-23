@@ -45,6 +45,44 @@ body {
     font-size: 10rem;
   }
 
+
+@media (max-width: 1051px) {
+    .results{
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 779px) {
+    .results{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 643px) {
+    .results{
+        font-size: 3rem;
+    }
+
+    .result-score{
+        font-size: 3rem;
+    }
+
+    .selection{
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 475px) {
+    .results{
+        font-size: 2rem;
+    }
+
+    .result-score{
+        font-size: 2rem;
+    }
+}
+
+
 @media (max-width: 414px) {
     .selection {
         font-size: 2rem;
