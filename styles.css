@@ -44,3 +44,23 @@ body {
     opacity: 1;
     font-size: 10rem;
   }
+
+  @media (max-width: 1051px) {
+      .results{
+          font-size: 5rem;
+      }
+
+      .result-score{
+          font-size: 4rem;
+      }
+  }
+
+  @media (max-width: 763px) {
+    .results{
+        font-size: 3rem;
+    }
+
+    .result-score{
+        font-size: 2rem;
+    }
+}
