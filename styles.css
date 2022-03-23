@@ -12,7 +12,7 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    font-size: 8rem;
+    font-size: 10rem;
     transition: 100ms;
   }
   
@@ -52,10 +52,11 @@ body {
 
     .results{
         font-size: 2rem;
+        margin-right: 2rem;
     }
 
     .result-score{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .result-selection.winner{
