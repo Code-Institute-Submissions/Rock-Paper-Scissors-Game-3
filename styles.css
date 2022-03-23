@@ -45,35 +45,20 @@ body {
     font-size: 10rem;
   }
 
-  @media (max-width: 1051px) {
-      .results{
-          font-size: 5rem;
-      }
-
-      .result-score{
-          font-size: 4rem;
-      }
-  }
-
-  @media (max-width: 763px) {
-    .results{
-        font-size: 3rem;
-    }
-
-    .result-score{
-        font-size: 2rem;
-    }
-}
-
 @media (max-width: 414px) {
     .selection {
-        font-size: 4rem;
+        font-size: 2rem;
     }
+
     .results{
         font-size: 2rem;
     }
 
     .result-score{
         font-size: 1rem;
+    }
+
+    .result-selection.winner{
+        font-size: 3rem;
     }
 }
