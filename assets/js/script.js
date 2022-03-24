@@ -1,3 +1,7 @@
+/**
+ * Declare lets for DOM elements
+ * and SELECTIONS
+ */
 let selectionButtons = document.querySelectorAll('[data-selection]');
 let finalColumn = document.querySelector('[data-final-column]');
 let computerScoreSpan = document.querySelector('[data-computer-score]');
@@ -27,7 +31,9 @@ selectionButtons.forEach(selectionButton => {
     makeSelection(selection);
   });
 });
-
+/**
+ * This function allows the user to select either Rock, Paper or Scissors.
+ */
 function makeSelection(selection) {
     let computerSelection = randomSelection();
     let yourWinner = isWinner(selection, computerSelection);
@@ -36,8 +42,8 @@ function makeSelection(selection) {
   addSelectionResult(computerSelection, computerWinner);
   addSelectionResult(selection, yourWinner);
 
-  if (yourWinner) incrementScore(yourScoreSpan);
-  if (computerWinner) incrementScore(computerScoreSpan);
+  if (yourWinner) incrementScore(yourScoreSpan); /* This if statment increments the score when the user is the winner.*/
+  if (computerWinner) incrementScore(computerScoreSpan); /* This if statment increments the score when the computer is the winner.*/
 }
 
 function incrementScore(scoreSpan) {

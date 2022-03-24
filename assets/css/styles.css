@@ -5,10 +5,14 @@ body {
     background-color: #CCC;
   }
 
+  /* Rock, Paper, Scissors Text */
+
   .header {
     text-align: center;
     font-size: 3rem;
   }
+
+  /* Possible Selections */
   
   .selections {
     display: flex;
@@ -28,11 +32,15 @@ body {
     transform: scale(1.2);
   }
 
+  /* Choose Wisely Text */
+
   .choose-wisely {
     margin-top: 2rem;
     text-align: center;
     font-size: 2rem;
   }
+
+  /* Results of the user and computers selection */
   
   .results {
     margin-top: 1rem;
