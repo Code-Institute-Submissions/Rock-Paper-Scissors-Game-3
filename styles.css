@@ -66,6 +66,10 @@ body {
         font-size: 5rem;
         margin-right: 3rem;
     }
+
+    .result-score{
+        font-size: 5rem;
+    }
 }
 
 @media (max-width: 1051px) {
@@ -74,8 +78,12 @@ body {
     }
 }
 
-@media (max-width: 779px) {
+@media (max-width: 780px) {
     .results{
+        font-size: 4rem;
+    }
+
+    .result-score{
         font-size: 4rem;
     }
 }
@@ -104,10 +112,19 @@ body {
     }
 }
 
-
 @media (max-width: 414px) {
+    .header{
+        margin-bottom: .5rem;
+        font-size: 2rem;
+    }
+    
     .selection {
         font-size: 2rem;
+    }
+
+    .choose-wisely{
+        margin-top: 1rem;
+        font-size: 1.5rem;
     }
 
     .results{
